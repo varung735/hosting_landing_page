@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    cursor: pointer;
+}
+
+button :hover{
+    cursor: pointer;
+}
+
+/* Styles for navbar */
+
+#nav-container{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.nav-logo{
+    justify-self: flex-start;
+}
+
+.logo{
+    height: 50px;
+    width: 120px;
+}
+
+.listAndBtn{
+    margin-left: 28%;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.nav-link > a{
+    font-size: 15px;
+    font-weight: 590;
+    color: #c9c9c9;
+}
+
+.nav-links :first-child > a{
+    font-size: 15px;
+    font-weight: 590;
+    color: #000;
+}
+
+.nav-btn{
+    margin-left: 50px;
+}
+
+.RegButton{
+    height: 50px;
+    width: 170px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Styles for main container */
+
+#main-container{
+    margin: 0 3%;
+}
+
+/* Styles for section 1 (main-container) */
+
+.section-1{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 7%;
+}
+
+/* styles for left div (main-container section-one) */
+
+.sec-one-left{
+    margin-top: 3%;
+}
+
+.sec-one-heading{
+    font-size: 4rem;
+    line-height: 80px;
+}
+
+.sec-one-content{
+    margin-top: 4%;
+    line-height: 30px;
+    color: #c9c9c9;
+}
+
+.sec-one-btn{
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 590;
+    color: #ffffff;
+    background: #1976D2;
+}
+
+/* styles for right div (main-container section-one) */
+
+.sec-one-right{
+    margin-left: 6%;
+    margin-right: 2%;
+}
+
+.server-img{
+    height: 500px;
+    width: 500px;
+}
