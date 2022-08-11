@@ -90,16 +90,20 @@ button :hover{
     font-weight: bold;
 }
 
+/* ------------------------- */
+
 /* Styles for main container */
 
 #main-container{
     margin: 0 3%;
 }
 
+/* ------------------------------------- */
 /* Styles for section 1 (main-container) */
+/* ------------------------------------- */
 
 .section-1{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -133,7 +137,7 @@ button :hover{
     font-size: 15px;
     font-weight: 590;
     color: #ffffff;
-    background: #1976D2;
+    background: #24a7ff;
 }
 
 /* styles for right div (main-container section-one) */
@@ -146,4 +150,181 @@ button :hover{
 .server-img{
     height: 500px;
     width: 500px;
+}
+
+/* ------------------------------------- */
+/* Styles for section 2 (main-container) */
+/* ------------------------------------- */
+
+.section-2{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles for left div (main-container section-two) */
+
+.sec-two-left{
+    height: 100%;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.testing-img{
+    height: 500px;
+    width: 500px;
+}
+
+/* styles for right div (main-container section-two) */
+
+.sec-two-right{
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.sec-two-heading{
+    font-size: 4rem;
+    line-height: 80px;
+}
+
+.sec-two-content{
+    margin-top: 4%;
+    line-height: 30px;
+    color: #c9c9c9;
+}
+
+.sec-two-btn{
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 590;
+    color: #ffffff;
+    background: #24a7ff;
+}
+
+/* ------------------------------------- */
+/* styles for section 3 (main-container) */
+/* ------------------------------------- */
+
+.section-3{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* styles for left div (main-container section-one) */
+
+.sec-three-left{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.sec-three-heading{
+    font-size: 4rem;
+    line-height: 80px;
+}
+
+.sec-three-content{
+    margin-top: 4%;
+    line-height: 30px;
+    color: #c9c9c9;
+}
+
+.sec-three-btn{
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 590;
+    color: #ffffff;
+    background: #24a7ff;
+}
+
+/* styles for right div (main-container section-one) */
+
+.sec-three-right{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.tech-img{
+    height: 600px;
+    width: 600px;
+}
+
+/* ------------------------------------------------- */
+/* ------- styles for services section ------------- */
+/* ------------------------------------------------- */
+
+.divider-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* styles for left div */
+
+.left{
+    width: 50%;
+    margin-left: 6%;
+}
+
+.services-heading{
+    font-size: 3em;
+}
+
+/* styles for right div */
+
+.right{
+    width: 50%;
+    color: #c9c9c9;
+    margin-right: 6%;
+}
+
+.services-content{
+    line-height: 30px;
+}
+
+/* ------------------------------------------------- */
+/* ------- styles for cards section ------------- */
+/* ------------------------------------------------- */
+
+.cards{
+    margin: 5% 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.card{
+    margin: 4% 6%;
+}
+
+.card-img{
+    margin-bottom: 3%;
+}
+
+.card-img-inside{
+    height: 50px;
+    width: 50px;
+}
+
+.card-heading-content{
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.card-content-content{
+    color: #c9c9c9;
 }
