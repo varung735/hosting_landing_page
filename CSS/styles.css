@@ -490,10 +490,6 @@ li.feature::before{
     border: 1px solid #c9c9c9;
 }
 
-.fc-content{
-    /* margin-top: 2%; */
-}
-
 .card-footer{
     margin-top: 3%;
     display: flex;
@@ -501,4 +497,50 @@ li.feature::before{
 
 .footer-content{
     margin-left: 3%;
+}
+
+/* ------------------------------------------------- */
+/* ---------- styles for pre-footer sec ------------ */
+/* ------------------------------------------------- */
+
+.pre-footer{
+    height: 300px;
+    padding: 2% 5%;
+    background-color: #24a7ff;
+    color: #fbfcf8;
+    display: flex;
+    justify-content: center;
+}
+
+.pre-footer-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pf-heading{
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.pf-content{
+    margin-top: 3%;
+    color: #c9c9c9;
+}
+
+.pre-footer-btn{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pf-btn{
+    padding: 2% 5%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
 }
