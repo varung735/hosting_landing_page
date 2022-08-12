@@ -544,3 +544,53 @@ li.feature::before{
     font-weight: 600;
     color: #fff;
 }
+
+/* ------------------------------------------------- */
+/* ------------- styles for footer ----------------- */
+/* ------------------------------------------------- */
+
+#footer-container{
+    height: 250px;
+    margin-top: 6%;
+    padding: 0 4%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    height: 50px;
+    width: 130px;
+}
+
+.fl-content{
+    margin-top: 4%;
+    font-size: 14px;
+    color: #c9c9c9;
+}
+
+.menu-heading{
+    margin-top: 2%;
+    font-size: 23px;
+}
+
+.menu-link{
+    margin-top: 8%;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.social-links{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.so-link{
+    height: 30px;
+    width: 30px;
+}
