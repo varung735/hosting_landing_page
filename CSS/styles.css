@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    cursor: context-menu;
 }
 
 li{
@@ -24,8 +25,8 @@ a :hover{
     cursor: pointer;
 }
 
-button :hover{
-    cursor: pointer;
+button:hover{
+    cursor: pointer !important;
 }
 
 /* Styles for navbar */
@@ -94,9 +95,9 @@ button :hover{
 
 /* Styles for main container */
 
-#main-container{
+/* #main-container{
     margin: 0 3%;
-}
+} */
 
 /* ------------------------------------- */
 /* Styles for section 1 (main-container) */
@@ -162,6 +163,7 @@ button :hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 3%;
 }
 
 /* styles for left div (main-container section-two) */
@@ -214,15 +216,16 @@ button :hover{
 
 .section-3{
     height: 90vh;
+    margin: 0 3%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-/* styles for left div (main-container section-one) */
+/* styles for left div (main-container section-three) */
 
 .sec-three-left{
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 3%;
 }
 
@@ -249,7 +252,7 @@ button :hover{
     background: #24a7ff;
 }
 
-/* styles for right div (main-container section-one) */
+/* styles for right div (main-container section-three) */
 
 .sec-three-right{
     margin-left: 3%;
@@ -295,7 +298,7 @@ button :hover{
 }
 
 /* ------------------------------------------------- */
-/* ------- styles for cards section ------------- */
+/* ---------- styles for cards section ------------- */
 /* ------------------------------------------------- */
 
 .cards{
@@ -328,3 +331,127 @@ button :hover{
 .card-content-content{
     color: #c9c9c9;
 }
+
+/* ------------------------------------------------- */
+/* ---------- styles for pricing section ----------- */
+/* ------------------------------------------------- */
+
+.pricing-cards{
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #24a7ff;
+}
+
+.pricing-heading{
+    margin-top: 6%;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.pricing-cards-div{
+    display: flex;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.pricing-card{
+    height: 600px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1% 3%; */
+}
+
+.card-heading{
+    padding-top: 5%;
+    padding-left: 3%;
+    height: 20%;
+}
+
+.cp-heading{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.cp-content{
+    margin-top: 4%;
+    color: #c9c9c9;
+}
+
+.card-body{
+    height: 50%;
+}
+
+.features{
+    padding: 7% 9%;
+}
+
+.feature{
+    margin-top: 6%;
+}
+
+li.feature::before{
+    content: '\2713';
+    height: 1px;
+    width: 1px;
+    text-align: center;
+    color: #07d7a0;
+    border: 2px solid #07d7a0;
+    border-radius: 50%;
+    margin-right: 3%;
+    font-weight: 900;
+    padding: 0 2px;
+}
+
+.card-footing{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price{
+    justify-self: flex-start;
+    font-size: 2rem;
+}
+
+.price :first-child{
+    color: #c9c9c9;
+}
+
+.cancel-link{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #c9c9c9;
+}
+
+.card-btn{
+    margin-top: 10%;
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border: 2px solid #24a7ff;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #24a7ff;
+}
+
+.active > .card-heading{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.active > .card-footing > .card-btn{
+    background: transparent;
+}
+
+/* ------------------------------------------------- */
+/* ---------- styles for customer section ---------- */
+/* ------------------------------------------------- */
+
