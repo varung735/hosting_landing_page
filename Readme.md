@@ -1,5 +1,7 @@
 # Hosting Landing Page
 
+  ![Hosting Landing Page](./Screenshot.png)
+
  - I am Varun Gupta
  - In this project, I'll apply the learning of basic concepts of the HTML and CSS
 
@@ -23,3 +25,10 @@ It took me around 2.5 days for the project.
  - Used grid display property in customer sections.
  - Got to know about cards which is easily used through bootstrap or Tailwind perhaps (created them manually using CSS in this project)
  - Used linear gradients for background colors.
+
+## Find Me On
+
+ - [LinkedIn](https://www.linkedin.com/in/varun-g-65282489)
+ - [Github](https://github.com/varung735)
+
+## Thank You.
